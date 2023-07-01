@@ -17,7 +17,7 @@
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/shinokada/svelte-cssgg-icons/main/static/images/svelte-cssgg-icons-color-450.webp" width="450" />
+<img src="https://raw.githubusercontent.com/shinokada/cssgg-icons/main/static/images/svelte-cssgg-icons-color-450.webp" width="450" />
 </p>
 
 ## Installation
