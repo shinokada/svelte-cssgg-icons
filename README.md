@@ -78,7 +78,7 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 
 ## REPL
 
-[Demo]()
+[Demo](https://svelte.dev/repl/36584bc35f364444893640b660723f80?version=4.0.1)
 
 ## Props
 
