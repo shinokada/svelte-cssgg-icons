@@ -108,7 +108,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BxAbacus color="#c61515" /> 
+<BxAbacus color="#c61515" />
 ```
 
 ## CSS frameworks suport

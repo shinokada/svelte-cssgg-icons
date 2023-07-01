@@ -10,6 +10,7 @@
   height={size}
   {role}
   {...$$restProps}
+  aria-label={ariaLabel}
   on:click
   on:keydown
   on:keyup
@@ -62,12 +63,12 @@
 </svg>
 <!--
 @component
-[Go to Document](https://shinokada.github.io/svelte-supertiny/)
+[Go to Document](https://shinokada.github.io/svelte-cssgg-icons/)
 ## Props
-@prop role = img;
+@prop role = 'img';
 @prop size = '24';
 @prop color = 'currentColor'
-@prop ariaLabel=file name
+@prop ariaLabel='file name'
 ## Event
 - on:click
 - on:keydown
