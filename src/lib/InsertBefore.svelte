@@ -1,0 +1,50 @@
+<script>
+ export let color = "currentColor"
+ export let size="24";
+ export let role="img";
+</script>
+<svg
+  width="{size}"
+  height="{size}"
+  {role}
+ {...$$restProps}
+ on:click
+ on:keydown
+ on:keyup
+ on:focus
+ on:blur
+ on:mouseenter
+ on:mouseleave
+ on:mouseover
+ on:mouseout
+ viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M3 5C3 5.55228 3.44772 6 4 6H20C20.5523 6 21 5.55228 21 5C21 4.44772 20.5523 4 20 4H4C3.44772 4 3 4.44772 3 5Z"
+    fill="{color}"
+  />
+  <path
+    d="M12 20C12.5523 20 13 19.5523 13 19V16H16C16.5523 16 17 15.5523 17 15C17 14.4477 16.5523 14 16 14H13V11C13 10.4477 12.5523 10 12 10C11.4477 10 11 10.4477 11 11V14H8C7.44772 14 7 14.4477 7 15C7 15.5523 7.44772 16 8 16H11V19C11 19.5523 11.4477 20 12 20Z"
+    fill="{color}"
+  />
+</svg>
+<!--
+@component
+[Go to Document](https://shinokada.github.io/svelte-supertiny/)
+## Props
+@prop role = img;
+@prop size = '24';
+@prop color = 'currentColor'
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->
