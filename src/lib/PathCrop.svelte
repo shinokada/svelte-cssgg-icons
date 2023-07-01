@@ -24,7 +24,7 @@
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <rect opacity="0.5" x="6" y="6" width="8" height="8" stroke="currentColor" stroke-width="2" />
+  <rect opacity="0.5" x="6" y="6" width="8" height="8" stroke={color} stroke-width="2" />
   <path
     fill-rule="evenodd"
     clip-rule="evenodd"

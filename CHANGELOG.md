@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.2](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.1.1...v0.1.2) (2023-07-01)
 
-
 ### Bug Fixes
 
-* add aria-label ([531411d](https://github.com/shinokada/svelte-cssgg-icons/commit/531411ddcee3fbab8abd24df224e7ba2db384198))
+- add aria-label ([531411d](https://github.com/shinokada/svelte-cssgg-icons/commit/531411ddcee3fbab8abd24df224e7ba2db384198))
 
 ### 0.1.1 (2023-07-01)
 
