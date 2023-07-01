@@ -1,31 +1,33 @@
 <script>
- export let color = "currentColor"
- export let size="24";
- export let role="img";
+  export let color = 'currentColor';
+  export let size = '24';
+  export let role = 'img';
+  export let ariaLabel = 'format indent decrease';
 </script>
+
 <svg
-  width="{size}"
-  height="{size}"
+  width={size}
+  height={size}
   {role}
- {...$$restProps}
- on:click
- on:keydown
- on:keyup
- on:focus
- on:blur
- on:mouseenter
- on:mouseleave
- on:mouseover
- on:mouseout
- viewBox="0 0 24 24"
+  {...$$restProps}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <path d="M20 7H4V5H20V7Z" fill="{color}" />
-  <path d="M20 11H12V9H20V11Z" fill="{color}" />
-  <path d="M12 15H20V13H12V15Z" fill="{color}" />
-  <path d="M9 9L4 12L9 15V9Z" fill="{color}" />
-  <path d="M4 17V19H20V17H4Z" fill="{color}" />
+  <path d="M20 7H4V5H20V7Z" fill={color} />
+  <path d="M20 11H12V9H20V11Z" fill={color} />
+  <path d="M12 15H20V13H12V15Z" fill={color} />
+  <path d="M9 9L4 12L9 15V9Z" fill={color} />
+  <path d="M4 17V19H20V17H4Z" fill={color} />
 </svg>
 <!--
 @component
@@ -34,6 +36,7 @@
 @prop role = img;
 @prop size = '24';
 @prop color = 'currentColor'
+@prop ariaLabel=file name
 ## Event
 - on:click
 - on:keydown

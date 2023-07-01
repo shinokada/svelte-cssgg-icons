@@ -1,29 +1,31 @@
 <script>
- export let color = "currentColor"
- export let size="24";
- export let role="img";
+  export let color = 'currentColor';
+  export let size = '24';
+  export let role = 'img';
+  export let ariaLabel = 'corner double down right';
 </script>
+
 <svg
-  width="{size}"
-  height="{size}"
+  width={size}
+  height={size}
   {role}
- {...$$restProps}
- on:click
- on:keydown
- on:keyup
- on:focus
- on:blur
- on:mouseenter
- on:mouseleave
- on:mouseover
- on:mouseout
- viewBox="0 0 24 24"
+  {...$$restProps}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
     d="M12.6004 7.67915L7.63814 2.74194L2.70093 7.7042L4.11871 9.11483L6.52249 6.69886L6.5075 12.7348C6.50092 15.3857 8.64461 17.5401 11.2956 17.5467L17.224 17.5614L14.9855 19.8638L16.4195 21.258L21.299 16.239L16.2801 11.3595L14.8859 12.7934L17.3217 15.1616L11.3015 15.1467C9.97605 15.1434 8.9042 14.0662 8.9075 12.7407L8.92214 6.84077L11.1898 9.09694L12.6004 7.67915Z"
-    fill="{color}"
+    fill={color}
   />
 </svg>
 <!--
@@ -33,6 +35,7 @@
 @prop role = img;
 @prop size = '24';
 @prop color = 'currentColor'
+@prop ariaLabel=file name
 ## Event
 - on:click
 - on:keydown

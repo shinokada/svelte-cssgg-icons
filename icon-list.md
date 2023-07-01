@@ -1,705 +1,704 @@
-Abstract.svelte
-Add.svelte
-AddR.svelte
-Adidas.svelte
-Airplane.svelte
-Alarm.svelte
-Album.svelte
-AlignBottom.svelte
-AlignCenter.svelte
-AlignLeft.svelte
-AlignMiddle.svelte
-AlignRight.svelte
-AlignTop.svelte
-Anchor.svelte
-AppleWatch.svelte
-ArrangeBack.svelte
-ArrangeFront.svelte
-ArrowAlignH.svelte
-ArrowAlignV.svelte
-ArrowBottomLeft.svelte
-ArrowBottomLeftO.svelte
-ArrowBottomLeftR.svelte
-ArrowBottomRight.svelte
-ArrowBottomRightO.svelte
-ArrowBottomRightR.svelte
-ArrowDown.svelte
-ArrowDownO.svelte
-ArrowDownR.svelte
-ArrowLeft.svelte
-ArrowLeftO.svelte
-ArrowLeftR.svelte
-ArrowLongDown.svelte
-ArrowLongDownC.svelte
-ArrowLongDownE.svelte
-ArrowLongDownL.svelte
-ArrowLongDownR.svelte
-ArrowLongLeft.svelte
-ArrowLongLeftC.svelte
-ArrowLongLeftE.svelte
-ArrowLongLeftL.svelte
-ArrowLongLeftR.svelte
-ArrowLongRight.svelte
-ArrowLongRightC.svelte
-ArrowLongRightE.svelte
-ArrowLongRightL.svelte
-ArrowLongRightR.svelte
-ArrowLongUp.svelte
-ArrowLongUpC.svelte
-ArrowLongUpE.svelte
-ArrowLongUpL.svelte
-ArrowLongUpR.svelte
-ArrowRight.svelte
-ArrowRightO.svelte
-ArrowRightR.svelte
-ArrowTopLeft.svelte
-ArrowTopLeftO.svelte
-ArrowTopLeftR.svelte
-ArrowTopRight.svelte
-ArrowTopRightO.svelte
-ArrowTopRightR.svelte
-ArrowUp.svelte
-ArrowUpO.svelte
-ArrowUpR.svelte
-ArrowsBreakeH.svelte
-ArrowsBreakeV.svelte
-ArrowsExchange.svelte
-ArrowsExchangeAlt.svelte
-ArrowsExchangeAltV.svelte
-ArrowsExchangeV.svelte
-ArrowsExpandDownLeft.svelte
-ArrowsExpandDownRight.svelte
-ArrowsExpandLeft.svelte
-ArrowsExpandLeftAlt.svelte
-ArrowsExpandRight.svelte
-ArrowsExpandRightAlt.svelte
-ArrowsExpandUpLeft.svelte
-ArrowsExpandUpRight.svelte
-ArrowsH.svelte
-ArrowsHAlt.svelte
-ArrowsMergeAltH.svelte
-ArrowsMergeAltV.svelte
-ArrowsScrollH.svelte
-ArrowsScrollV.svelte
-ArrowsShrinkH.svelte
-ArrowsShrinkV.svelte
-ArrowsV.svelte
-ArrowsVAlt.svelte
-Assign.svelte
-Asterisk.svelte
-Atlasian.svelte
-Attachment.svelte
-Attribution.svelte
-Awards.svelte
-Backspace.svelte
-BandAid.svelte
-Battery.svelte
-BatteryEmpty.svelte
-BatteryFull.svelte
-Bee.svelte
-Bell.svelte
-Bitbucket.svelte
-Block.svelte
-Bmw.svelte
-Board.svelte
-Bolt.svelte
-Bookmark.svelte
-BorderAll.svelte
-BorderBottom.svelte
-BorderLeft.svelte
-BorderRight.svelte
-BorderStyleDashed.svelte
-BorderStyleDotted.svelte
-BorderStyleSolid.svelte
-BorderTop.svelte
-Bot.svelte
-Bowl.svelte
-Box.svelte
-Boy.svelte
-Brackets.svelte
-Briefcase.svelte
-Browse.svelte
-Browser.svelte
-Brush.svelte
-Bulb.svelte
-CPlusPlus.svelte
-Calculator.svelte
-Calendar.svelte
-CalendarDates.svelte
-CalendarDue.svelte
-CalendarNext.svelte
-CalendarToday.svelte
-CalendarTwo.svelte
-Calibrate.svelte
-Camera.svelte
-Cap.svelte
-Captions.svelte
-CardClubs.svelte
-CardDiamonds.svelte
-CardHearts.svelte
-CardSpades.svelte
-Carousel.svelte
-Cast.svelte
-Chanel.svelte
-Chart.svelte
-Check.svelte
-CheckO.svelte
-CheckR.svelte
-ChevronDoubleDown.svelte
-ChevronDoubleDownO.svelte
-ChevronDoubleDownR.svelte
-ChevronDoubleLeft.svelte
-ChevronDoubleLeftO.svelte
-ChevronDoubleLeftR.svelte
-ChevronDoubleRight.svelte
-ChevronDoubleRightO.svelte
-ChevronDoubleRightR.svelte
-ChevronDoubleUp.svelte
-ChevronDoubleUpO.svelte
-ChevronDoubleUpR.svelte
-ChevronDown.svelte
-ChevronDownO.svelte
-ChevronDownR.svelte
-ChevronLeft.svelte
-ChevronLeftO.svelte
-ChevronLeftR.svelte
-ChevronRight.svelte
-ChevronRightO.svelte
-ChevronRightR.svelte
-ChevronUp.svelte
-ChevronUpO.svelte
-ChevronUpR.svelte
-Circleci.svelte
-ClapperBoard.svelte
-Clipboard.svelte
-Close.svelte
-CloseO.svelte
-CloseR.svelte
-Cloud.svelte
-Code.svelte
-CodeClimate.svelte
-CodeSlash.svelte
-Coffee.svelte
-Collage.svelte
-ColorBucket.svelte
-ColorPicker.svelte
-ComedyCentral.svelte
-Comment.svelte
-Community.svelte
-Components.svelte
-Compress.svelte
-CompressLeft.svelte
-CompressRight.svelte
-CompressV.svelte
-Controller.svelte
-Copy.svelte
-Copyright.svelte
-CornerDoubleDownLeft.svelte
-CornerDoubleDownRight.svelte
-CornerDoubleLeftDown.svelte
-CornerDoubleLeftUp.svelte
-CornerDoubleRightDown.svelte
-CornerDoubleRightUp.svelte
-CornerDoubleUpLeft.svelte
-CornerDoubleUpRight.svelte
-CornerDownLeft.svelte
-CornerDownRight.svelte
-CornerLeftDown.svelte
-CornerLeftUp.svelte
-CornerRightDown.svelte
-CornerRightUp.svelte
-CornerUpLeft.svelte
-CornerUpRight.svelte
-CreditCard.svelte
-Crop.svelte
-Cross.svelte
-Crowdfire.svelte
-Crown.svelte
-Danger.svelte
-DarkMode.svelte
-Data.svelte
-Database.svelte
-Debug.svelte
-Designmodo.svelte
-Desktop.svelte
-DetailsLess.svelte
-DetailsMore.svelte
-Dialpad.svelte
-Dice1.svelte
-Dice2.svelte
-Dice3.svelte
-Dice4.svelte
-Dice5.svelte
-Dice6.svelte
-Digitalocean.svelte
-Disc.svelte
-DisplayFlex.svelte
-DisplayFullwidth.svelte
-DisplayGrid.svelte
-DisplaySpacing.svelte
-DistributeHorizontal.svelte
-DistributeVertical.svelte
-DockBottom.svelte
-DockLeft.svelte
-DockRight.svelte
-DockWindow.svelte
-Dolby.svelte
-Dollar.svelte
-Dribbble.svelte
-Drive.svelte
-Drop.svelte
-DropInvert.svelte
-DropOpacity.svelte
-Duplicate.svelte
-EditBlackPoint.svelte
-EditContrast.svelte
-EditExposure.svelte
-EditFade.svelte
-EditFlipH.svelte
-EditFlipV.svelte
-EditHighlight.svelte
-EditMarkup.svelte
-EditMask.svelte
-EditNoise.svelte
-EditShadows.svelte
-EditStraight.svelte
-EditUnmask.svelte
-Eject.svelte
-Enter.svelte
-Erase.svelte
-Ereader.svelte
-Ericsson.svelte
-Ethernet.svelte
-Euro.svelte
-Eventbrite.svelte
-Expand.svelte
-Export.svelte
-Extension.svelte
-ExtensionAdd.svelte
-ExtensionAlt.svelte
-ExtensionRemove.svelte
-External.svelte
-Eye.svelte
-EyeAlt.svelte
-Facebook.svelte
-Feed.svelte
-Figma.svelte
-File.svelte
-FileAdd.svelte
-FileDocument.svelte
-FileRemove.svelte
-Film.svelte
-Filters.svelte
-Flag.svelte
-FlagAlt.svelte
-Folder.svelte
-FolderAdd.svelte
-FolderRemove.svelte
-FontHeight.svelte
-FontSpacing.svelte
-FormatBold.svelte
-FormatCenter.svelte
-FormatColor.svelte
-FormatHeading.svelte
-FormatIndentDecrease.svelte
-FormatIndentIncrease.svelte
-FormatItalic.svelte
-FormatJustify.svelte
-FormatLeft.svelte
-FormatLineHeight.svelte
-FormatRight.svelte
-FormatSeparator.svelte
-FormatSlash.svelte
-FormatStrike.svelte
-FormatText.svelte
-FormatUnderline.svelte
-FormatUppercase.svelte
-Framer.svelte
-Games.svelte
-GenderFemale.svelte
-GenderMale.svelte
-Ghost.svelte
-GhostCharacter.svelte
-Gift.svelte
-Girl.svelte
-GitBranch.svelte
-GitCommit.svelte
-GitFork.svelte
-GitPull.svelte
-Gitter.svelte
-Glass.svelte
-GlassAlt.svelte
-Globe.svelte
-GlobeAlt.svelte
-Google.svelte
-GoogleTasks.svelte
-Gym.svelte
-Hashtag.svelte
-Headset.svelte
-Heart.svelte
-Hello.svelte
-Home.svelte
-HomeAlt.svelte
-HomeScreen.svelte
-Icecream.svelte
-IfDesign.svelte
-Image.svelte
-Import.svelte
-Inbox.svelte
-IndieHackers.svelte
-Infinity.svelte
-Info.svelte
-Inpicture.svelte
-InsertAfter.svelte
-InsertAfterO.svelte
-InsertAfterR.svelte
-InsertBefore.svelte
-InsertBeforeO.svelte
-InsertBeforeR.svelte
-Insights.svelte
-Instagram.svelte
-Internal.svelte
-Key.svelte
-Keyboard.svelte
-Keyhole.svelte
-Laptop.svelte
-Lastpass.svelte
-LayoutGrid.svelte
-LayoutGridSmall.svelte
-LayoutList.svelte
-LayoutPin.svelte
-Linear.svelte
-Link.svelte
-List.svelte
-ListTree.svelte
-LivePhoto.svelte
-Loadbar.svelte
-LoadbarAlt.svelte
-LoadbarDoc.svelte
-LoadbarSound.svelte
-Lock.svelte
-LockUnlock.svelte
-LogIn.svelte
-LogOff.svelte
-LogOut.svelte
-Loupe.svelte
-Magnet.svelte
-Mail.svelte
-MailForward.svelte
-MailOpen.svelte
-MailReply.svelte
-MathDivide.svelte
-MathEqual.svelte
-MathMinus.svelte
-MathPercent.svelte
-MathPlus.svelte
-Maximize.svelte
-MaximizeAlt.svelte
-Maze.svelte
-MediaLive.svelte
-MediaPodcast.svelte
-Menu.svelte
-MenuBoxed.svelte
-MenuCake.svelte
-MenuCheese.svelte
-MenuGridO.svelte
-MenuGridR.svelte
-MenuHotdog.svelte
-MenuLeft.svelte
-MenuLeftAlt.svelte
-MenuMotion.svelte
-MenuOreos.svelte
-MenuRight.svelte
-MenuRightAlt.svelte
-MenuRound.svelte
-MergeHorizontal.svelte
-MergeVertical.svelte
-Mic.svelte
-Microbit.svelte
-Microsoft.svelte
-MiniPlayer.svelte
-Minimize.svelte
-MinimizeAlt.svelte
-Modem.svelte
-Monday.svelte
-Moon.svelte
-More.svelte
-MoreAlt.svelte
-MoreO.svelte
-MoreR.svelte
-MoreVertical.svelte
-MoreVerticalAlt.svelte
-MoreVerticalO.svelte
-MoreVerticalR.svelte
-Mouse.svelte
-MoveDown.svelte
-MoveLeft.svelte
-MoveRight.svelte
-MoveTask.svelte
-MoveUp.svelte
-Music.svelte
-MusicNote.svelte
-MusicSpeaker.svelte
-Nametag.svelte
-Notes.svelte
-Notifications.svelte
-Npm.svelte
-Oculus.svelte
-OpenCollective.svelte
-Options.svelte
-Organisation.svelte
-Overflow.svelte
-Pacman.svelte
-Password.svelte
-PathBack.svelte
-PathCrop.svelte
-PathDivide.svelte
-PathExclude.svelte
-PathFront.svelte
-PathIntersect.svelte
-PathOutline.svelte
-PathTrim.svelte
-PathUnite.svelte
-Patreon.svelte
-Paypal.svelte
-Pen.svelte
-PentagonBottomLeft.svelte
-PentagonBottomRight.svelte
-PentagonDown.svelte
-PentagonLeft.svelte
-PentagonRight.svelte
-PentagonTopLeft.svelte
-PentagonTopRight.svelte
-PentagonUp.svelte
-Performance.svelte
-Pexels.svelte
-Phone.svelte
-Photoscan.svelte
-Piano.svelte
-Pill.svelte
-Pin.svelte
-PinAlt.svelte
-PinBottom.svelte
-PinTop.svelte
-PlayBackwards.svelte
-PlayButton.svelte
-PlayButtonO.svelte
-PlayButtonR.svelte
-PlayForwards.svelte
-PlayList.svelte
-PlayListAdd.svelte
-PlayListCheck.svelte
-PlayListRemove.svelte
-PlayListSearch.svelte
-PlayPause.svelte
-PlayPauseO.svelte
-PlayPauseR.svelte
-PlayStop.svelte
-PlayStopO.svelte
-PlayStopR.svelte
-PlayTrackNext.svelte
-PlayTrackNextO.svelte
-PlayTrackNextR.svelte
-PlayTrackPrev.svelte
-PlayTrackPrevO.svelte
-PlayTrackPrevR.svelte
-Plug.svelte
-Pocket.svelte
-Pokemon.svelte
-Polaroid.svelte
-Poll.svelte
-Presentation.svelte
-Printer.svelte
-ProductHunt.svelte
-Profile.svelte
-PullClear.svelte
-PushChevronDown.svelte
-PushChevronDownO.svelte
-PushChevronDownR.svelte
-PushChevronLeft.svelte
-PushChevronLeftO.svelte
-PushChevronLeftR.svelte
-PushChevronRight.svelte
-PushChevronRightO.svelte
-PushChevronRightR.svelte
-PushChevronUp.svelte
-PushChevronUpO.svelte
-PushChevronUpR.svelte
-PushDown.svelte
-PushLeft.svelte
-PushRight.svelte
-PushUp.svelte
-Qr.svelte
-Quote.svelte
-QuoteO.svelte
-RadioCheck.svelte
-RadioChecked.svelte
-Ratio.svelte
-Read.svelte
-Readme.svelte
-Record.svelte
-Redo.svelte
-Remote.svelte
-Remove.svelte
-RemoveR.svelte
-Rename.svelte
-Reorder.svelte
-Repeat.svelte
-Ring.svelte
-RowFirst.svelte
-RowLast.svelte
-Ruler.svelte
-SandClock.svelte
-Scan.svelte
-Screen.svelte
-ScreenMirror.svelte
-ScreenShot.svelte
-ScreenWide.svelte
-ScrollH.svelte
-ScrollV.svelte
-Search.svelte
-SearchFound.svelte
-SearchLoading.svelte
-Select.svelte
-SelectO.svelte
-SelectR.svelte
-Server.svelte
-Serverless.svelte
-ShapeCircle.svelte
-ShapeHalfCircle.svelte
-ShapeHexagon.svelte
-ShapeRhombus.svelte
-ShapeSquare.svelte
-ShapeTriangle.svelte
-ShapeZigzag.svelte
-Share.svelte
-Shield.svelte
-ShoppingBag.svelte
-ShoppingCart.svelte
-Shortcut.svelte
-Shutterstock.svelte
-Sidebar.svelte
-SidebarOpen.svelte
-SidebarRight.svelte
-Signal.svelte
-Size.svelte
-Sketch.svelte
-Slack.svelte
-Sleep.svelte
-SmartHomeBoiler.svelte
-SmartHomeCooker.svelte
-SmartHomeHeat.svelte
-SmartHomeLight.svelte
-SmartHomeRefrigerator.svelte
-SmartHomeWashMachine.svelte
-Smartphone.svelte
-SmartphoneChip.svelte
-SmartphoneRam.svelte
-SmartphoneShake.svelte
-Smile.svelte
-SmileMouthOpen.svelte
-SmileNeutral.svelte
-SmileNoMouth.svelte
-SmileNone.svelte
-SmileSad.svelte
-SmileUpside.svelte
-SoftwareDownload.svelte
-SoftwareUpload.svelte
-SortAz.svelte
-SortZa.svelte
-SpaceBetween.svelte
-SpaceBetweenV.svelte
-Spectrum.svelte
-Spinner.svelte
-SpinnerAlt.svelte
-SpinnerTwo.svelte
-SpinnerTwoAlt.svelte
-Square.svelte
-Stack.svelte
-Stark.svelte
-Stopwatch.svelte
-Stories.svelte
-Studio.svelte
-Style.svelte
-Sun.svelte
-Support.svelte
-Swap.svelte
-SwapVertical.svelte
-Sweden.svelte
-Swiss.svelte
-Sync.svelte
-Tab.svelte
-Tag.svelte
-Tally.svelte
-TapDouble.svelte
-TapSingle.svelte
-Template.svelte
-Tennis.svelte
-Terminal.svelte
-Terrain.svelte
-Thermometer.svelte
-Thermostat.svelte
-Tikcode.svelte
-Time.svelte
-Timelapse.svelte
-Timer.svelte
-Today.svelte
-ToggleOff.svelte
-ToggleOn.svelte
-ToggleSquare.svelte
-ToggleSquareOff.svelte
-ToolbarBottom.svelte
-ToolbarLeft.svelte
-ToolbarRight.svelte
-ToolbarTop.svelte
-Toolbox.svelte
-Touchpad.svelte
-Track.svelte
-Transcript.svelte
-Trash.svelte
-TrashEmpty.svelte
-Tree.svelte
-Trees.svelte
-Trello.svelte
-Trending.svelte
-TrendingDown.svelte
-Trophy.svelte
-Tv.svelte
-Twilio.svelte
-Twitter.svelte
-UiKit.svelte
-Umbrella.svelte
-Unavailable.svelte
-Unblock.svelte
-Undo.svelte
-Unfold.svelte
-Unsplash.svelte
-Usb.svelte
-UsbC.svelte
-User.svelte
-UserAdd.svelte
-UserList.svelte
-UserRemove.svelte
-Userlane.svelte
-Vercel.svelte
-ViewCols.svelte
-ViewComfortable.svelte
-ViewDay.svelte
-ViewGrid.svelte
-ViewList.svelte
-ViewMonth.svelte
-ViewSplit.svelte
-Vinyl.svelte
-Voicemail.svelte
-VoicemailO.svelte
-VoicemailR.svelte
-Volume.svelte
-Webcam.svelte
-Website.svelte
-Windows.svelte
-WorkAlt.svelte
-Yinyang.svelte
-Youtube.svelte
-ZoomIn.svelte
-ZoomOut.svelte
-index.js
+- Abstract
+- Add
+- AddR
+- Adidas
+- Airplane
+- Alarm
+- Album
+- AlignBottom
+- AlignCenter
+- AlignLeft
+- AlignMiddle
+- AlignRight
+- AlignTop
+- Anchor
+- AppleWatch
+- ArrangeBack
+- ArrangeFront
+- ArrowAlignH
+- ArrowAlignV
+- ArrowBottomLeft
+- ArrowBottomLeftO
+- ArrowBottomLeftR
+- ArrowBottomRight
+- ArrowBottomRightO
+- ArrowBottomRightR
+- ArrowDown
+- ArrowDownO
+- ArrowDownR
+- ArrowLeft
+- ArrowLeftO
+- ArrowLeftR
+- ArrowLongDown
+- ArrowLongDownC
+- ArrowLongDownE
+- ArrowLongDownL
+- ArrowLongDownR
+- ArrowLongLeft
+- ArrowLongLeftC
+- ArrowLongLeftE
+- ArrowLongLeftL
+- ArrowLongLeftR
+- ArrowLongRight
+- ArrowLongRightC
+- ArrowLongRightE
+- ArrowLongRightL
+- ArrowLongRightR
+- ArrowLongUp
+- ArrowLongUpC
+- ArrowLongUpE
+- ArrowLongUpL
+- ArrowLongUpR
+- ArrowRight
+- ArrowRightO
+- ArrowRightR
+- ArrowTopLeft
+- ArrowTopLeftO
+- ArrowTopLeftR
+- ArrowTopRight
+- ArrowTopRightO
+- ArrowTopRightR
+- ArrowUp
+- ArrowUpO
+- ArrowUpR
+- ArrowsBreakeH
+- ArrowsBreakeV
+- ArrowsExchange
+- ArrowsExchangeAlt
+- ArrowsExchangeAltV
+- ArrowsExchangeV
+- ArrowsExpandDownLeft
+- ArrowsExpandDownRight
+- ArrowsExpandLeft
+- ArrowsExpandLeftAlt
+- ArrowsExpandRight
+- ArrowsExpandRightAlt
+- ArrowsExpandUpLeft
+- ArrowsExpandUpRight
+- ArrowsH
+- ArrowsHAlt
+- ArrowsMergeAltH
+- ArrowsMergeAltV
+- ArrowsScrollH
+- ArrowsScrollV
+- ArrowsShrinkH
+- ArrowsShrinkV
+- ArrowsV
+- ArrowsVAlt
+- Assign
+- Asterisk
+- Atlasian
+- Attachment
+- Attribution
+- Awards
+- Backspace
+- BandAid
+- Battery
+- BatteryEmpty
+- BatteryFull
+- Bee
+- Bell
+- Bitbucket
+- Block
+- Bmw
+- Board
+- Bolt
+- Bookmark
+- BorderAll
+- BorderBottom
+- BorderLeft
+- BorderRight
+- BorderStyleDashed
+- BorderStyleDotted
+- BorderStyleSolid
+- BorderTop
+- Bot
+- Bowl
+- Box
+- Boy
+- Brackets
+- Briefcase
+- Browse
+- Browser
+- Brush
+- Bulb
+- CPlusPlus
+- Calculator
+- Calendar
+- CalendarDates
+- CalendarDue
+- CalendarNext
+- CalendarToday
+- CalendarTwo
+- Calibrate
+- Camera
+- Cap
+- Captions
+- CardClubs
+- CardDiamonds
+- CardHearts
+- CardSpades
+- Carousel
+- Cast
+- Chanel
+- Chart
+- Check
+- CheckO
+- CheckR
+- ChevronDoubleDown
+- ChevronDoubleDownO
+- ChevronDoubleDownR
+- ChevronDoubleLeft
+- ChevronDoubleLeftO
+- ChevronDoubleLeftR
+- ChevronDoubleRight
+- ChevronDoubleRightO
+- ChevronDoubleRightR
+- ChevronDoubleUp
+- ChevronDoubleUpO
+- ChevronDoubleUpR
+- ChevronDown
+- ChevronDownO
+- ChevronDownR
+- ChevronLeft
+- ChevronLeftO
+- ChevronLeftR
+- ChevronRight
+- ChevronRightO
+- ChevronRightR
+- ChevronUp
+- ChevronUpO
+- ChevronUpR
+- Circleci
+- ClapperBoard
+- Clipboard
+- Close
+- CloseO
+- CloseR
+- Cloud
+- Code
+- CodeClimate
+- CodeSlash
+- Coffee
+- Collage
+- ColorBucket
+- ColorPicker
+- ComedyCentral
+- Comment
+- Community
+- Components
+- Compress
+- CompressLeft
+- CompressRight
+- CompressV
+- Controller
+- Copy
+- Copyright
+- CornerDoubleDownLeft
+- CornerDoubleDownRight
+- CornerDoubleLeftDown
+- CornerDoubleLeftUp
+- CornerDoubleRightDown
+- CornerDoubleRightUp
+- CornerDoubleUpLeft
+- CornerDoubleUpRight
+- CornerDownLeft
+- CornerDownRight
+- CornerLeftDown
+- CornerLeftUp
+- CornerRightDown
+- CornerRightUp
+- CornerUpLeft
+- CornerUpRight
+- CreditCard
+- Crop
+- Cross
+- Crowdfire
+- Crown
+- Danger
+- DarkMode
+- Data
+- Database
+- Debug
+- Designmodo
+- Desktop
+- DetailsLess
+- DetailsMore
+- Dialpad
+- Dice1
+- Dice2
+- Dice3
+- Dice4
+- Dice5
+- Dice6
+- Digitalocean
+- Disc
+- DisplayFlex
+- DisplayFullwidth
+- DisplayGrid
+- DisplaySpacing
+- DistributeHorizontal
+- DistributeVertical
+- DockBottom
+- DockLeft
+- DockRight
+- DockWindow
+- Dolby
+- Dollar
+- Dribbble
+- Drive
+- Drop
+- DropInvert
+- DropOpacity
+- Duplicate
+- EditBlackPoint
+- EditContrast
+- EditExposure
+- EditFade
+- EditFlipH
+- EditFlipV
+- EditHighlight
+- EditMarkup
+- EditMask
+- EditNoise
+- EditShadows
+- EditStraight
+- EditUnmask
+- Eject
+- Enter
+- Erase
+- Ereader
+- Ericsson
+- Ethernet
+- Euro
+- Eventbrite
+- Expand
+- Export
+- Extension
+- ExtensionAdd
+- ExtensionAlt
+- ExtensionRemove
+- External
+- Eye
+- EyeAlt
+- Facebook
+- Feed
+- Figma
+- File
+- FileAdd
+- FileDocument
+- FileRemove
+- Film
+- Filters
+- Flag
+- FlagAlt
+- Folder
+- FolderAdd
+- FolderRemove
+- FontHeight
+- FontSpacing
+- FormatBold
+- FormatCenter
+- FormatColor
+- FormatHeading
+- FormatIndentDecrease
+- FormatIndentIncrease
+- FormatItalic
+- FormatJustify
+- FormatLeft
+- FormatLineHeight
+- FormatRight
+- FormatSeparator
+- FormatSlash
+- FormatStrike
+- FormatText
+- FormatUnderline
+- FormatUppercase
+- Framer
+- Games
+- GenderFemale
+- GenderMale
+- Ghost
+- GhostCharacter
+- Gift
+- Girl
+- GitBranch
+- GitCommit
+- GitFork
+- GitPull
+- Gitter
+- Glass
+- GlassAlt
+- Globe
+- GlobeAlt
+- Google
+- GoogleTasks
+- Gym
+- Hashtag
+- Headset
+- Heart
+- Hello
+- Home
+- HomeAlt
+- HomeScreen
+- Icecream
+- IfDesign
+- Image
+- Import
+- Inbox
+- IndieHackers
+- Infinity
+- Info
+- Inpicture
+- InsertAfter
+- InsertAfterO
+- InsertAfterR
+- InsertBefore
+- InsertBeforeO
+- InsertBeforeR
+- Insights
+- Instagram
+- Internal
+- Key
+- Keyboard
+- Keyhole
+- Laptop
+- Lastpass
+- LayoutGrid
+- LayoutGridSmall
+- LayoutList
+- LayoutPin
+- Linear
+- Link
+- List
+- ListTree
+- LivePhoto
+- Loadbar
+- LoadbarAlt
+- LoadbarDoc
+- LoadbarSound
+- Lock
+- LockUnlock
+- LogIn
+- LogOff
+- LogOut
+- Loupe
+- Magnet
+- Mail
+- MailForward
+- MailOpen
+- MailReply
+- MathDivide
+- MathEqual
+- MathMinus
+- MathPercent
+- MathPlus
+- Maximize
+- MaximizeAlt
+- Maze
+- MediaLive
+- MediaPodcast
+- Menu
+- MenuBoxed
+- MenuCake
+- MenuCheese
+- MenuGridO
+- MenuGridR
+- MenuHotdog
+- MenuLeft
+- MenuLeftAlt
+- MenuMotion
+- MenuOreos
+- MenuRight
+- MenuRightAlt
+- MenuRound
+- MergeHorizontal
+- MergeVertical
+- Mic
+- Microbit
+- Microsoft
+- MiniPlayer
+- Minimize
+- MinimizeAlt
+- Modem
+- Monday
+- Moon
+- More
+- MoreAlt
+- MoreO
+- MoreR
+- MoreVertical
+- MoreVerticalAlt
+- MoreVerticalO
+- MoreVerticalR
+- Mouse
+- MoveDown
+- MoveLeft
+- MoveRight
+- MoveTask
+- MoveUp
+- Music
+- MusicNote
+- MusicSpeaker
+- Nametag
+- Notes
+- Notifications
+- Npm
+- Oculus
+- OpenCollective
+- Options
+- Organisation
+- Overflow
+- Pacman
+- Password
+- PathBack
+- PathCrop
+- PathDivide
+- PathExclude
+- PathFront
+- PathIntersect
+- PathOutline
+- PathTrim
+- PathUnite
+- Patreon
+- Paypal
+- Pen
+- PentagonBottomLeft
+- PentagonBottomRight
+- PentagonDown
+- PentagonLeft
+- PentagonRight
+- PentagonTopLeft
+- PentagonTopRight
+- PentagonUp
+- Performance
+- Pexels
+- Phone
+- Photoscan
+- Piano
+- Pill
+- Pin
+- PinAlt
+- PinBottom
+- PinTop
+- PlayBackwards
+- PlayButton
+- PlayButtonO
+- PlayButtonR
+- PlayForwards
+- PlayList
+- PlayListAdd
+- PlayListCheck
+- PlayListRemove
+- PlayListSearch
+- PlayPause
+- PlayPauseO
+- PlayPauseR
+- PlayStop
+- PlayStopO
+- PlayStopR
+- PlayTrackNext
+- PlayTrackNextO
+- PlayTrackNextR
+- PlayTrackPrev
+- PlayTrackPrevO
+- PlayTrackPrevR
+- Plug
+- Pocket
+- Pokemon
+- Polaroid
+- Poll
+- Presentation
+- Printer
+- ProductHunt
+- Profile
+- PullClear
+- PushChevronDown
+- PushChevronDownO
+- PushChevronDownR
+- PushChevronLeft
+- PushChevronLeftO
+- PushChevronLeftR
+- PushChevronRight
+- PushChevronRightO
+- PushChevronRightR
+- PushChevronUp
+- PushChevronUpO
+- PushChevronUpR
+- PushDown
+- PushLeft
+- PushRight
+- PushUp
+- Qr
+- Quote
+- QuoteO
+- RadioCheck
+- RadioChecked
+- Ratio
+- Read
+- Readme
+- Record
+- Redo
+- Remote
+- Remove
+- RemoveR
+- Rename
+- Reorder
+- Repeat
+- Ring
+- RowFirst
+- RowLast
+- Ruler
+- SandClock
+- Scan
+- Screen
+- ScreenMirror
+- ScreenShot
+- ScreenWide
+- ScrollH
+- ScrollV
+- Search
+- SearchFound
+- SearchLoading
+- Select
+- SelectO
+- SelectR
+- Server
+- Serverless
+- ShapeCircle
+- ShapeHalfCircle
+- ShapeHexagon
+- ShapeRhombus
+- ShapeSquare
+- ShapeTriangle
+- ShapeZigzag
+- Share
+- Shield
+- ShoppingBag
+- ShoppingCart
+- Shortcut
+- Shutterstock
+- Sidebar
+- SidebarOpen
+- SidebarRight
+- Signal
+- Size
+- Sketch
+- Slack
+- Sleep
+- SmartHomeBoiler
+- SmartHomeCooker
+- SmartHomeHeat
+- SmartHomeLight
+- SmartHomeRefrigerator
+- SmartHomeWashMachine
+- Smartphone
+- SmartphoneChip
+- SmartphoneRam
+- SmartphoneShake
+- Smile
+- SmileMouthOpen
+- SmileNeutral
+- SmileNoMouth
+- SmileNone
+- SmileSad
+- SmileUpside
+- SoftwareDownload
+- SoftwareUpload
+- SortAz
+- SortZa
+- SpaceBetween
+- SpaceBetweenV
+- Spectrum
+- Spinner
+- SpinnerAlt
+- SpinnerTwo
+- SpinnerTwoAlt
+- Square
+- Stack
+- Stark
+- Stopwatch
+- Stories
+- Studio
+- Style
+- Sun
+- Support
+- Swap
+- SwapVertical
+- Sweden
+- Swiss
+- Sync
+- Tab
+- Tag
+- Tally
+- TapDouble
+- TapSingle
+- Template
+- Tennis
+- Terminal
+- Terrain
+- Thermometer
+- Thermostat
+- Tikcode
+- Time
+- Timelapse
+- Timer
+- Today
+- ToggleOff
+- ToggleOn
+- ToggleSquare
+- ToggleSquareOff
+- ToolbarBottom
+- ToolbarLeft
+- ToolbarRight
+- ToolbarTop
+- Toolbox
+- Touchpad
+- Track
+- Transcript
+- Trash
+- TrashEmpty
+- Tree
+- Trees
+- Trello
+- Trending
+- TrendingDown
+- Trophy
+- Tv
+- Twilio
+- Twitter
+- UiKit
+- Umbrella
+- Unavailable
+- Unblock
+- Undo
+- Unfold
+- Unsplash
+- Usb
+- UsbC
+- User
+- UserAdd
+- UserList
+- UserRemove
+- Userlane
+- Vercel
+- ViewCols
+- ViewComfortable
+- ViewDay
+- ViewGrid
+- ViewList
+- ViewMonth
+- ViewSplit
+- Vinyl
+- Voicemail
+- VoicemailO
+- VoicemailR
+- Volume
+- Webcam
+- Website
+- Windows
+- WorkAlt
+- Yinyang
+- Youtube
+- ZoomIn
+- ZoomOut

@@ -1,58 +1,197 @@
-# create-svelte
+<h1 align="center">Svelte Cssgg Icons</h1>
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<p align="center">
+<a href="https://github.com/shinokada/cssgg-icons">Svelte-Cssgg-Icons</a>
+</p>
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+<p align="center">
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25"></a>
+<a href="https://www.npmjs.com/package/svelte-cssgg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-cssgg-icons" alt="npm" height="25"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-cssgg-icons" alt="License" height="25"></a>
+<a href="https://www.npmjs.com/package/svelte-cssgg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-cssgg-icons.svg" alt="npm" height="25"></a>
+</p>
 
-## Creating a project
+700+ SVG logos from <a href="https://github.com/astrit/css.gg">css.gg</a> for Svelte.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+<p align="center">
+<img src="https://raw.githubusercontent.com/shinokada/svelte-cssgg-icons/main/static/images/svelte-cssgg-icons-color-450.webp" width="450" />
+</p>
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Installation
+
+```sh
+npm i -D svelte-cssgg-icons
 ```
 
-## Developing
+## Icon list
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+[Icon list](/icon-list.md)
 
-```bash
-npm run dev
+## Icon images
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+[Icon images](/icon-images.md)
+
+## Usage
+
+In a svelte file:
+
+```html
+<script>
+  import { Add } from 'svelte-cssgg-icons';
+</script>
+
+<Add />
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+## Faster compiling
 
-## Building
+If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
 
-To build your library:
+```html
+<script>
+  import Add from 'svelte-cssgg-icons/Add.svelte';
+</script>
 
-```bash
-npm run package
+<Add />
 ```
 
-To create a production version of your showcase app:
+If you are a TypeScript user, install **typescript version 5.0.0 or above**.
 
-```bash
-npm run build
+```sh
+pnpm i -D typescript@latest
 ```
 
-You can preview the production build with `npm run preview`.
+To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
+```json
+{
+  //...
+  "compilerOptions": {
+    // ...
+    "moduleResolution": "nodenext"
+  }
+}
 ```
+
+## REPL
+
+[Demo]()
+
+## Props
+
+- color = 'currentColor';
+- size = '24';
+- role = 'img';
+- ariaLabel = 'file name';
+
+## IDE support
+
+If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, features, props, events, and an example.
+
+## Size
+
+Use the `size` prop to change the size of icons.
+
+```html
+<script>
+  import { Add } from 'svelte-cssgg-icons';
+</script>
+
+<Add size="30" />
+```
+
+## CSS HEX Colors
+
+Use the `color` prop to change colors with HEX color code.
+
+```html
+<BxAbacus color="#c61515" /> 
+```
+
+## CSS frameworks suport
+
+Use the `class` prop to change colors and add additional css.
+
+Tailwind example:
+
+```html
+<script>
+  import { Add } from 'svelte-cssgg-icons';
+</script>
+
+<Add class="m-8" />
+```
+
+Bootstrap example:
+
+```html
+<Add class="px-4" />
+```
+
+## Unfocusable icon
+
+If you want to make an icon unfocusable, add `tabindex="-1"`.
+
+```html
+<Add tabindex="-1" />
+```
+
+## Events
+
+All icons have the following events:
+
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+
+## Passing down other attributes
+
+You can pass other attibutes as well.
+
+```html
+<Add tabindex="0" />
+```
+
+## Using svelte:component
+
+```html
+<script>
+  import { Add } from 'svelte-cssgg-icons';
+</script>
+
+<svelte:component this="{Add}" />
+```
+
+## Import all
+
+[REPL](https://svelte.dev/repl/6b2057d58c3841fc9f37b67960f02e27)
+
+Use `import * as Icon from 'svelte-cssgg-icons`.
+
+```html
+<script>
+  import * as Icon from 'svelte-cssgg-icons';
+</script>
+
+<h1>Size</h1>
+<Icon.Add size="30" />
+<Icon.Add size="40" />
+<Icon.Add size="50" />
+
+<h1>Tailwind CSS</h1>
+<Icon.Add class="m-4" />
+<Icon.Add class="m-8" />
+```
+
+## Other icons
+
+- [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)

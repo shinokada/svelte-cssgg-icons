@@ -710,4 +710,3 @@
 <Icon.Youtube size="40" color={random_hex_color_code()} />
 <Icon.ZoomIn size="40" color={random_hex_color_code()} />
 <Icon.ZoomOut size="40" color={random_hex_color_code()} />
-

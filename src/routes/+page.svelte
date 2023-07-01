@@ -706,4 +706,3 @@
 <Icon.Youtube size="40" />
 <Icon.ZoomIn size="40" />
 <Icon.ZoomOut size="40" />
-
