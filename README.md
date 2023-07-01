@@ -12,7 +12,7 @@
 <a href="https://www.npmjs.com/package/svelte-cssgg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-cssgg-icons.svg" alt="npm" height="25"></a>
 </p>
 
-700+ SVG logos from <a href="https://github.com/astrit/css.gg">css.gg</a> for Svelte.
+700+ SVG icons from <a href="https://github.com/astrit/css.gg">css.gg</a> for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
