@@ -1,6 +1,6 @@
 {
   "name": "svelte-cssgg-icons",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Svelte SVG icon components for CSS.gg",
   "author": {
     "name": "Shinichi Okada",
