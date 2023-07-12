@@ -103,7 +103,7 @@ Use the `color` prop to change colors with HEX color code.
 
 ## CSS frameworks suport
 
-Use the `class` prop to change colors and add additional css.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind example:
 
@@ -112,13 +112,32 @@ Tailwind example:
   import { Add } from 'svelte-cssgg-icons';
 </script>
 
-<Add class="m-8" />
+<Add class="text-red-700 dark:text-green-300 inline m-1" />
 ```
 
 Bootstrap example:
 
 ```html
 <Add class="px-4" />
+```
+
+## Dark mode
+
+If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
+
+Let's use `dark` for the dark mode class as an example.
+
+```html
+<Add class="text-blue-700 dark:text-red-500" />
+```
+
+## aria-label
+
+All icons have aria-label. For example `EiBell` has `aria-label="ei bell"`.
+Use `ariaLabel` prop to modify the `aria-label` value.
+
+```html
+<Add ariaLabel="ei bell" />
 ```
 
 ## Unfocusable icon
@@ -159,6 +178,22 @@ You can pass other attibutes as well.
 </script>
 
 <svelte:component this="{Add}" />
+```
+
+## Using onMount
+
+```html
+<script>
+  import { EiBell } from 'svelte-evil-icons';
+  import { onMount } from 'svelte';
+  const props = {
+    size: '50',
+    color: '#ff0000'
+  };
+  onMount(() => {
+    const icon = new EiBell({ target: document.body, props });
+  });
+</script>
 ```
 
 ## Import all
