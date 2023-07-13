@@ -1,38 +1,26 @@
-<h1 align="center">Svelte Cssgg Icons</h1>
+# Svelte Cssgg Icons
 
-<p align="center">
-<a href="https://github.com/shinokada/cssgg-icons">Svelte-Cssgg-Icons</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-cssgg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-cssgg-icons" alt="npm" height="25"></a>
-<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-cssgg-icons" alt="License" height="25"></a>
-<a href="https://www.npmjs.com/package/svelte-cssgg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-cssgg-icons.svg" alt="npm" height="25"></a>
-</p>
+<div class="flex gap-2 my-8">
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-cssgg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-cssgg-icons" alt="npm" height="25" style="height: 25px !important;"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-cssgg-icons" alt="License" height="25" style="height: 25px !important;"></a>
+<a href="https://www.npmjs.com/package/svelte-cssgg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-cssgg-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
+</div>
 
 700+ SVG icons from <a href="https://github.com/astrit/css.gg">css.gg</a> for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/shinokada/cssgg-icons/main/static/images/svelte-cssgg-icons-color-450.webp" width="450" />
-</p>
+## Repo
+
+[GitHub repo](https://github.com/shinokada/svelte-cssgg-icons)
 
 ## Installation
 
 ```sh
-npm i -D svelte-cssgg-icons
+pnpm i -D svelte-cssgg-icons
 ```
-
-## Icon list
-
-[Icon list](/icon-list.md)
-
-## Icon images
-
-[Icon images](/icon-images.md)
 
 ## Usage
 
@@ -76,11 +64,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
-## REPL
-
-- [Demo color](https://svelte.dev/repl/36584bc35f364444893640b660723f80?version=4.0.1)
-- [Demo mono](https://svelte.dev/repl/77dd916fe61a42f2a01b84d9e89033a4?version=4.0.1)
-
 ## Props
 
 - color = 'currentColor';
@@ -104,6 +87,12 @@ Use the `size` prop to change the size of icons.
 <Add size="30" />
 ```
 
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+
+```html
+<Add class="shrink-0 h-20 w-20" />
+```
+
 ## CSS HEX Colors
 
 Use the `color` prop to change colors with HEX color code.
@@ -114,7 +103,7 @@ Use the `color` prop to change colors with HEX color code.
 
 ## CSS frameworks suport
 
-Use the `class` prop to change colors and add additional css.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind example:
 
@@ -123,13 +112,32 @@ Tailwind example:
   import { Add } from 'svelte-cssgg-icons';
 </script>
 
-<Add class="m-8" />
+<Add class="text-red-700 dark:text-green-300 inline m-1" />
 ```
 
 Bootstrap example:
 
 ```html
 <Add class="px-4" />
+```
+
+## Dark mode
+
+If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
+
+Let's use `dark` for the dark mode class as an example.
+
+```html
+<Add class="text-blue-700 dark:text-red-500" />
+```
+
+## aria-label
+
+All icons have aria-label. For example `EiBell` has `aria-label="ei bell"`.
+Use `ariaLabel` prop to modify the `aria-label` value.
+
+```html
+<Add ariaLabel="ei bell" />
 ```
 
 ## Unfocusable icon
@@ -170,6 +178,22 @@ You can pass other attibutes as well.
 </script>
 
 <svelte:component this="{Add}" />
+```
+
+## Using onMount
+
+```html
+<script>
+  import { EiBell } from 'svelte-evil-icons';
+  import { onMount } from 'svelte';
+  const props = {
+    size: '50',
+    color: '#ff0000'
+  };
+  onMount(() => {
+    const icon = new EiBell({ target: document.body, props });
+  });
+</script>
 ```
 
 ## Import all
