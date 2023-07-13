@@ -16,6 +16,16 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub repo](https://github.com/shinokada/svelte-cssgg-icons)
 
+## Original source
+
+[astrit/css.gg](https://github.com/astrit/css.gg)
+
+## License
+
+[Svelte-Cssgg-Icons License](https://github.com/shinokada/svelte-cssgg-icons/LICENSE)
+
+[Css.gg License](https://github.com/astrit/css.gg/blob/master/LICENSE)
+
 ## Installation
 
 ```sh
