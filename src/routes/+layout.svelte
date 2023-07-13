@@ -38,14 +38,14 @@
   
 <Navbar let:hidden let:toggle class="dark:bg-zinc-900">
   <NavBrand href="/">
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-primary-700 dark:text-primary-500">
       Svelte Cssgg Icons
     </span>
   </NavBrand>
   <NavHamburger on:click={toggle} />
   <NavUl {hidden}>
     <NavLi href="/" active={activeUrl === '/'}>Home</NavLi>
-    <NavLi href="/docs" active={activeUrl === '/docs'}>Docs</NavLi>
+    <NavLi href="/icons" active={activeUrl === '/icons'}>Icons</NavLi>
     <NavLi href="https://github.com/shinokada/svelte-cssgg-icons">GitHub</NavLi>
     <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
   </NavUl>
@@ -55,7 +55,7 @@
   <slot />
 </div>
 
-<Footer footerType="logo" class="dark:bg-zinc-900">
+<Footer footerType="logo" class="dark:bg-zinc-900 mx-8">
   <div class="sm:flex sm:items-center sm:justify-between">
   <FooterBrand
   href="https://svelte-cssgg-icons.vercel.app/"
