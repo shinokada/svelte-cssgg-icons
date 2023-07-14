@@ -22,14 +22,12 @@
   $: filteredEntries = Object.entries(Icons).filter(([name, component]) => {
     return name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
   });
-  let divClass = 'mx-16';
 </script>
 
 <TableSearch
   placeholder="Search by icon name"
   hoverable={true}
   bind:inputValue={searchTerm}
-  {divClass}
 >
   <Tabs style="pill" {contentClass} class="p-4">
     <TabItem open>
