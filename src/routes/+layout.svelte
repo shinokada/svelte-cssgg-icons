@@ -14,12 +14,13 @@
   import { MetaTags } from 'svelte-meta-tags';
 
   $: activeUrl = $page.url.pathname;
+  const title = "Svelte Cssgg Icons"
   let divClass = 'w-full ml-auto lg:block lg:w-auto order-1 lg:order-none';
   let ulClass = 'flex flex-col py-3 my-4 lg:flex-row lg:my-0 text-sm font-medium gap-4';
 </script>
 
 <MetaTags
-  title="Svelte Cssgg Icons"
+  title="{title}"
   description="svelte-cssgg-icons icon set for Svelte"
   openGraph={{
     type: 'website',
@@ -41,7 +42,7 @@
   <header class="flex-none w-full mx-auto bg-white dark:bg-zinc-900">
     <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-zinc-900 ">
       <NavBrand href="/">
-        <span class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"> Svelte CoreUI Icons </span>
+        <span class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"> {title} </span>
       </NavBrand>
   
       <NavUl {hidden} {divClass} {ulClass} on:click={() => setTimeout(toggle, 1)} 
