@@ -28,8 +28,9 @@
   placeholder="Search by icon name"
   hoverable={true}
   bind:inputValue={searchTerm}
+  divClass='relative overflow-x-auto'
 >
-  <Tabs style="pill" {contentClass} class="p-4">
+  <Tabs style="pill" {contentClass} class="p-4" >
     <TabItem open>
       <span slot="title" class="text-lg">Mono</span>
       <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
