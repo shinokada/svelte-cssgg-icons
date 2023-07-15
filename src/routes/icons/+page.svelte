@@ -1,4 +1,6 @@
 <script>
+  import Range from 'flowbite-svelte/Range.svelte';
+  import Label from 'flowbite-svelte/Label.svelte';
   import Tabs from 'flowbite-svelte/Tabs.svelte';
   import TabItem from 'flowbite-svelte/TabItem.svelte';
   import TableSearch from 'flowbite-svelte/TableSearch.svelte';
@@ -22,6 +24,7 @@
   $: filteredEntries = Object.entries(Icons).filter(([name, component]) => {
     return name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
   });
+  let size=24;
 </script>
 
 <TableSearch
@@ -30,13 +33,18 @@
   bind:inputValue={searchTerm}
   divClass='relative overflow-x-auto'
 >
+<div class="w-1/3 p-4">
+  <Label class="text-lg py-4 ">Icon size: {size}</Label>
+  <Range id="range1" min="20" max="40" bind:value={size} />
+</div>
   <Tabs style="pill" {contentClass} class="p-4" >
     <TabItem open>
       <span slot="title" class="text-lg">Mono</span>
       <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
         {#each filteredEntries as [name, component]}
           <div class="flex gap-4 items-center text-lg">
-            <svelte:component this={component} class="shrink-0" />
+            <svelte:component this={component} class="shrink-0" 
+            bind:size={size} />
             {name}
           </div>
         {/each}
@@ -51,6 +59,7 @@
               this={component}
               color={random_hex_color_code()}
               class="shrink-0"
+              bind:size={size} 
             />
             {name}
           </div>
@@ -62,7 +71,8 @@
       <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
         {#each filteredEntries as [name, component]}
           <div class="flex gap-4 items-center text-lg">
-            <svelte:component this={component} class={random_tailwind_color()} />
+            <svelte:component this={component} class={random_tailwind_color()} 
+            bind:size={size} />
             {name}
           </div>
         {/each}
