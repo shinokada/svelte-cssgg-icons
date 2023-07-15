@@ -70,9 +70,10 @@
   classSpan="text-primary-700 dark:text-primary-500"
 />
   <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-    <FooterLink href="/docs">Docs</FooterLink>
-    <FooterLink href="https://github.com/shinokada/svelte-cssgg-icons/blob/main/LICENSE">Licensing</FooterLink>
-    <FooterLink href="https://github.com/shinokada/svelte-cssgg-icons/">GitHub</FooterLink>
+    <FooterLink href="/">Home</FooterLink>
+    <FooterLink href="/icons">Icons</FooterLink>
+    <FooterLink href="https://github.com/shinokada/svelte-cssgg-icons">GitHub</FooterLink>
+    <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
   </FooterLinkGroup>
   </div>
 </Footer>
