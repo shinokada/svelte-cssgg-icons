@@ -1,7 +1,7 @@
 # Svelte Cssgg Icons
 
 <div class="flex gap-2 my-8">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25" style="height: 25px !important;"></a>
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25" style="height: 25px !important;"></a>
 <a href="https://www.npmjs.com/package/svelte-cssgg-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-cssgg-icons" alt="npm" height="25" style="height: 25px !important;"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-cssgg-icons" alt="License" height="25" style="height: 25px !important;"></a>
@@ -108,7 +108,7 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BxAbacus color="#c61515" />
+<Add color="#c61515" />
 ```
 
 ## CSS frameworks suport
@@ -194,14 +194,14 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-  import { EiBell } from 'svelte-evil-icons';
+  import { Add } from 'svelte-cssgg-icons';
   import { onMount } from 'svelte';
   const props = {
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new EiBell({ target: document.body, props });
+    const icon = new Add({ target: document.body, props });
   });
 </script>
 ```

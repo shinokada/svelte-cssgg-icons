@@ -108,7 +108,7 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BxAbacus color="#c61515" />
+<Add color="#c61515" />
 ```
 
 ## CSS frameworks suport
@@ -194,14 +194,14 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-  import { EiBell } from 'svelte-evil-icons';
+  import { Add } from 'svelte-cssgg-icons';
   import { onMount } from 'svelte';
   const props = {
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new EiBell({ target: document.body, props });
+    const icon = new Add({ target: document.body, props });
   });
 </script>
 ```
