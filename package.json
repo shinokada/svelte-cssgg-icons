@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-cssgg-icons/issues",
-  "homepage": "https://shinokada.github.io/svelte-cssgg-icons",
+  "homepage": "https://svelte-cssgg-icons.vercel.app",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",
