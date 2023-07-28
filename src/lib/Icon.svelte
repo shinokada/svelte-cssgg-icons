@@ -35,7 +35,7 @@ viewBox="0 0 {displayIcon.box} {displayIcon.box}"
 
 <!--
 @component
-[Go to Document](https://shinokada.github.io/svelte-evil-icons/)
+[Go to Document](https://shinokada.github.io/svelte-cssgg-icons/)
 ## Props
 @prop name;
 @prop width = "24";
