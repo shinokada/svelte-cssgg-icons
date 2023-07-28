@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.2.1...v0.2.2) (2023-07-28)
+
+
+### Bug Fixes
+
+* make name in Icon reactive ([37b7154](https://github.com/shinokada/svelte-cssgg-icons/commit/37b7154b492fbcf12b8a2d6c19370684a2bdb172))
+
 ### [0.2.1](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.1.4...v0.2.1) (2023-07-28)
 
 
