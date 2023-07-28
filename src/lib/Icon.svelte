@@ -4,7 +4,6 @@
   export let name;
   export let width = "24";
   export let height = "24";
-  export let strokeWidth = '2';
   export let color = 'currentColor';
   export let role = 'img';
   export let ariaLabel = name;
@@ -19,9 +18,6 @@ class={$$props.class}
 fill={color}
 {role}
 aria-label={ariaLabel}
-stroke-linecap="round"
-stroke-linejoin="round"
-stroke-width={strokeWidth}
 {...$$restProps}
 on:click
 on:keydown
@@ -42,9 +38,8 @@ viewBox="0 0 {displayIcon.box} {displayIcon.box}"
 [Go to Document](https://shinokada.github.io/svelte-evil-icons/)
 ## Props
 @prop name;
-@prop width = '50';
-@prop height = '50';
-@prop strokeWidth = '2';
+@prop width = "24";
+@prop height = "24";
 @prop role = 'img';
 @prop color = 'currentColor'
 @prop ariaLabel='icon name'
