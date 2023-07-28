@@ -38,69 +38,39 @@ In a svelte file:
 
 ```html
 <script>
-  import { Add } from 'svelte-cssgg-icons';
+  import { Icon } from 'svelte-cssgg-icons';
 </script>
 
-<Add />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import Add from 'svelte-cssgg-icons/Add.svelte';
-</script>
-
-<Add />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@latest
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="add" />
 ```
 
 ## Props
 
-- color = 'currentColor';
-- size = '24';
-- role = 'img';
-- ariaLabel = 'file name';
+- @prop name;
+- @prop width = '50';
+- @prop height = '50';
+- @prop strokeWidth = '2';
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
 If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, features, props, events, and an example.
 
+
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<script>
-  import { Add } from 'svelte-cssgg-icons';
-</script>
-
-<Add size="30" />
+<Icon name="add" width="100" height="100" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
 
 ```html
-<Add class="shrink-0 h-20 w-20" />
+<Icon name="add" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -108,27 +78,23 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Add color="#c61515" />
+<Icon name="add" color="#c61515" />
 ```
 
-## CSS frameworks suport
+## CSS framworks suport
 
 You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
-Tailwind example:
+Tailwind CSS example:
 
 ```html
-<script>
-  import { Add } from 'svelte-cssgg-icons';
-</script>
-
-<Add class="text-red-700 dark:text-green-300 inline m-1" />
+<Icon name="add" class="text-red-700 inline m-1" />
 ```
 
-Bootstrap example:
+Bootstrap examples:
 
 ```html
-<Add class="px-4" />
+<Icon name="add" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -138,16 +104,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Add class="text-blue-700 dark:text-red-500" />
+<Icon name="add" class="text-red-700 dark:text-green-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `EiBell` has `aria-label="ei bell"`.
+All icons have aria-label. For example `bell` has `aria-label="bell"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Add ariaLabel="ei bell" />
+<Icon name="add" ariaLabel="red bell" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -155,7 +121,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Add tabindex="-1" />
+<Icon name="add" tabindex="-1" />
 ```
 
 ## Events
@@ -177,56 +143,50 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Add tabindex="0" />
+<Icon name="add" tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { Add } from 'svelte-cssgg-icons';
-</script>
-
-<svelte:component this="{Add}" />
+<svelte:component this="{Icon}" name="add"/>
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { Add } from 'svelte-cssgg-icons';
+  import {Icon} from 'svelte-cssgg-icons';
   import { onMount } from 'svelte';
   const props = {
+    name: 'arrow-down',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new Add({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
 ## Import all
 
-[REPL](https://svelte.dev/repl/6b2057d58c3841fc9f37b67960f02e27)
-
-Use `import * as Icon from 'svelte-cssgg-icons`.
+Use `import {Icon, icons} from 'svelte-cssgg-icons';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-cssgg-icons';
+  import {Icon, icons} from 'svelte-cssgg-icons';
 </script>
 
-<h1>Size</h1>
-<Icon.Add size="30" />
-<Icon.Add size="40" />
-<Icon.Add size="50" />
-
-<h1>Tailwind CSS</h1>
-<Icon.Add class="m-4" />
-<Icon.Add class="m-8" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+
