@@ -155,7 +155,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-  import {Icon} from 'svelte-cssgg-icons';
+  import { Icon } from 'svelte-cssgg-icons';
   import { onMount } from 'svelte';
   const props = {
     name: 'arrow-down',
