@@ -47,9 +47,8 @@ In a svelte file:
 ## Props
 
 - @prop name;
-- @prop width = '50';
-- @prop height = '50';
-- @prop strokeWidth = '2';
+- @prop width = "24";
+- @prop height = "24";
 - @prop role = 'img';
 - @prop color = 'currentColor'
 - @prop ariaLabel='icon name'

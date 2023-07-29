@@ -12,13 +12,13 @@
 </script>
 <svg
 xmlns="http://www.w3.org/2000/svg"
-class={$$props.class}
 {width}
 {height}
 fill={color}
 {role}
 aria-label={ariaLabel}
 {...$$restProps}
+class={$$props.class}
 on:click
 on:keydown
 on:keyup
