@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.2.4...v0.2.5) (2023-07-29)
+
+
+### Bug Fixes
+
+* restProps position and docs props update ([520cd59](https://github.com/shinokada/svelte-cssgg-icons/commit/520cd597ce3f6d058cf5424036f390d44fb7d878))
+
 ### [0.2.4](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.2.3...v0.2.4) (2023-07-28)
 
 
