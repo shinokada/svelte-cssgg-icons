@@ -1,0 +1,44 @@
+<script>
+  export let color = 'currentColor';
+  export let size = '24';
+  export let role = 'img';
+  export let ariaLabel = 'card diamonds';
+</script>
+
+<svg
+  width={size}
+  height={size}
+  {role}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M12 7.75736L7.75736 12L12 16.2426L16.2426 12L12 7.75736Z" fill={color} />
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M3 4C3 2.34315 4.34315 1 6 1H18C19.6569 1 21 2.34315 21 4V20C21 21.6569 19.6569 23 18 23H6C4.34315 23 3 21.6569 3 20V4ZM6 3H18C18.5523 3 19 3.44772 19 4V20C19 20.5523 18.5523 21 18 21H6C5.44772 21 5 20.5523 5 20V4C5 3.44772 5.44772 3 6 3Z"
+    fill={color}
+  />
+</svg>
+
+<!--
+@component
+[Go to docs](https://svelte-cssgg-icons.vercel.app)
+## Props
+@prop export let color = 'currentColor';
+@prop export let size = '24';
+@prop export let role = 'img';
+@prop export let ariaLabel = 'card diamonds';
+-->

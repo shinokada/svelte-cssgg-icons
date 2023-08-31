@@ -1,0 +1,49 @@
+<script>
+  export let color = 'currentColor';
+  export let size = '24';
+  export let role = 'img';
+  export let ariaLabel = 'merge vertical';
+</script>
+
+<svg
+  width={size}
+  height={size}
+  {role}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M8.97576 12L4.73312 7.75736L3.31891 9.17157L6.14734 12L3.31891 14.8284L4.73312 16.2426L8.97576 12Z"
+    fill={color}
+  />
+  <path
+    d="M11.9998 19C11.4475 19 10.9998 18.5523 10.9998 18V6C10.9998 5.44772 11.4475 5 11.9998 5C12.5521 5 12.9998 5.44772 12.9998 6V18C12.9998 18.5523 12.5521 19 11.9998 19Z"
+    fill={color}
+  />
+  <path
+    d="M15.0242 12L19.2669 16.2426L20.6811 14.8284L17.8527 12L20.6811 9.17157L19.2669 7.75736L15.0242 12Z"
+    fill={color}
+  />
+</svg>
+
+<!--
+@component
+[Go to docs](https://svelte-cssgg-icons.vercel.app)
+## Props
+@prop export let color = 'currentColor';
+@prop export let size = '24';
+@prop export let role = 'img';
+@prop export let ariaLabel = 'merge vertical';
+-->
