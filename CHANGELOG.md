@@ -4,11 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.2](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.3.1...v0.3.2) (2023-09-20)
 
-
 ### Features
 
-* add context ([9191353](https://github.com/shinokada/svelte-cssgg-icons/commit/91913539a25d8e5d571acfaa7615f2709ff53934))
-* add sidebar menu ([42ba1aa](https://github.com/shinokada/svelte-cssgg-icons/commit/42ba1aa689a7b9432e9e5a12e1ab5450762440a2))
+- add context ([9191353](https://github.com/shinokada/svelte-cssgg-icons/commit/91913539a25d8e5d571acfaa7615f2709ff53934))
+- add sidebar menu ([42ba1aa](https://github.com/shinokada/svelte-cssgg-icons/commit/42ba1aa689a7b9432e9e5a12e1ab5450762440a2))
 
 ### [0.3.1](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.2.9...v0.3.1) (2023-08-31)
 
