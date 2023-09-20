@@ -1,10 +1,12 @@
 <script>
   import { setContext } from 'svelte';
-  import { Add } from '$lib';
+  import { Add, Youtube } from '$lib';
   const iconCtx = {
-    width: '200'
+    size: '200',
+    color: '#0000ff'
   };
   setContext('iconCtx', iconCtx);
 </script>
 
 <Add />
+<Youtube />
