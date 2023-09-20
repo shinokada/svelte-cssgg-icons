@@ -4,7 +4,7 @@
   import Tabs from 'flowbite-svelte/Tabs.svelte';
   import TabItem from 'flowbite-svelte/TabItem.svelte';
   import TableSearch from 'flowbite-svelte/TableSearch.svelte';
-  import { random_tailwind_color, random_hex_color_code } from '../utils.js';
+  import { random_tailwind_color, random_hex_color_code } from '../utils/utils.js';
   import * as Icons from '$lib';
 
   const contentClass = ' rounded-lg dark:bg-zinc-900 mt-4';

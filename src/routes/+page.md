@@ -1,3 +1,7 @@
+---
+layout: mainLayout
+---
+
 # Svelte Cssgg Icons
 
 <div class="flex gap-2 my-8">
