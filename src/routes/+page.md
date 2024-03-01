@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub repo](https://github.com/shinokada/svelte-cssgg-icons)
 
-## Original source
-
-[astrit/css.gg](https://github.com/astrit/css.gg)
-
-## License
-
-[Svelte-Cssgg-Icons License](https://github.com/shinokada/svelte-cssgg-icons/LICENSE)
-
-[Css.gg License](https://github.com/astrit/css.gg/blob/master/LICENSE)
-
 ## Installation
 
 ```sh
@@ -346,6 +336,16 @@ Use `import * as Icon from 'svelte-cssgg-icons`.
 <Icon.Add class="m-8" />
 ```
 
+## Original source
+
+[astrit/css.gg](https://github.com/astrit/css.gg)
+
+## License
+
+[Svelte-Cssgg-Icons License](https://github.com/shinokada/svelte-cssgg-icons/LICENSE)
+
+[Css.gg License](https://github.com/astrit/css.gg/blob/master/LICENSE)
+
 ## Other icons
 
-- [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+- [Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)

@@ -4,11 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.0.1](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.3.3...v1.0.1) (2024-01-27)
 
-
 ### Bug Fixes
 
-* add class="ml-3 m-0 lg:hidden md:block" to NavHamburger ([e17a85f](https://github.com/shinokada/svelte-cssgg-icons/commit/e17a85f78dd0bfed8bb75e03633b30a632d5deee))
-* badge size ([be6713c](https://github.com/shinokada/svelte-cssgg-icons/commit/be6713c8aa1e4263ade8e110bc28d42e7146e56e))
+- add class="ml-3 m-0 lg:hidden md:block" to NavHamburger ([e17a85f](https://github.com/shinokada/svelte-cssgg-icons/commit/e17a85f78dd0bfed8bb75e03633b30a632d5deee))
+- badge size ([be6713c](https://github.com/shinokada/svelte-cssgg-icons/commit/be6713c8aa1e4263ade8e110bc28d42e7146e56e))
 
 ### [0.3.3](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.3.2...v0.3.3) (2023-09-20)
 
