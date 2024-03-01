@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/shinokada/svelte-cssgg-icons/compare/v1.0.2...v1.0.3) (2024-03-01)
+
+
+### Bug Fixes
+
+* @typescript-eslint/eslint-plugin update ([e345e2e](https://github.com/shinokada/svelte-cssgg-icons/commit/e345e2ec3baf0eeb2f16e8a7957dc42a0d2ad659))
+* scripts update ([15f2281](https://github.com/shinokada/svelte-cssgg-icons/commit/15f2281a0b2e188ca3c5ea8b91749f67dcba2b3a))
+
 ### [1.0.2](https://github.com/shinokada/svelte-cssgg-icons/compare/v1.0.1...v1.0.2) (2024-03-01)
 
 ### [1.0.1](https://github.com/shinokada/svelte-cssgg-icons/compare/v0.3.3...v1.0.1) (2024-01-27)
