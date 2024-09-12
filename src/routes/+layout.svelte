@@ -82,7 +82,7 @@
         <NavLi href="/" data-sveltekit-reload>Home</NavLi>
         <NavLi href="/icons">Icons</NavLi>
         <NavLi href="https://github.com/shinokada/svelte-cssgg-icons">GitHub</NavLi>
-        <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
+        <NavLi href="https://svelte-svg-icons.codewithshin.com/">Icon sets</NavLi>
       </NavUl>
       <div class="flex items-center ml-auto">
         <DarkMode class="inline-block dark:hover:text-white hover:text-gray-900" />
@@ -107,7 +107,7 @@
         <FooterLink href="/" data-sveltekit-reload>Home</FooterLink>
         <FooterLink href="/icons">Icons</FooterLink>
         <FooterLink href="https://github.com/shinokada/svelte-cssgg-icons">GitHub</FooterLink>
-        <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
+        <FooterLink href="https://svelte-svg-icons.codewithshin.com/">Icon sets</FooterLink>
       </FooterLinkGroup>
     </div>
   </Footer>
